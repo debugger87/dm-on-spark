@@ -43,3 +43,6 @@
 
     The 1984 monograph, “CART: Classification and Regression Trees,” coauthored by Leo Breiman, Jerome Friedman, Richard Olshen, and Charles Stone (BFOS), repre- sents a major milestone in the evolution of artificial intelligence, machine learning, nonparametric statistics, and data mining.
 
+### Credits
+
+Most of linalg code is nothing but a polished copy of [Spark MLlib](https://github.com/apache/spark/tree/master/mllib)
