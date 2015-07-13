@@ -15,7 +15,6 @@ libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 )
 
-
 resolvers ++= Seq(
   "maven.mei.fm" at "http://maven.mei.fm/nexus/content/groups/public/"
 )
