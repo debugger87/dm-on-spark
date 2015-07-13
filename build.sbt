@@ -8,6 +8,14 @@ version := "1.0"
 
 scalaVersion := "2.10.4"
 
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-core" % "1.3.0" % "provided",
+  "org.jblas" % "jblas" % "1.2.3",
+  "org.scalanlp" %% "breeze" % "0.11.2",
+  "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+)
+
+
 resolvers ++= Seq(
   "maven.mei.fm" at "http://maven.mei.fm/nexus/content/groups/public/"
 )
